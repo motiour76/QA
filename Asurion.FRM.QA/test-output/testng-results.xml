@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13873" started-at="2017-11-03T21:33:35Z" finished-at="2017-11-03T21:33:49Z">
+  <suite name="Default suite" duration-ms="17909" started-at="2017-11-16T16:09:49Z" finished-at="2017-11-16T16:10:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13873" started-at="2017-11-03T21:33:35Z" finished-at="2017-11-03T21:33:49Z">
-      <class name="com.count.AddressMatch.AddressMatch_Rule_22">
-        <test-method status="PASS" signature="AddressMatch_Rule_24()[pri:0, instance:com.count.AddressMatch.AddressMatch_Rule_22@3e6fa38a]" name="AddressMatch_Rule_24" duration-ms="13836" started-at="2017-11-03T17:33:35Z" finished-at="2017-11-03T17:33:49Z">
+    <test name="Default test" duration-ms="17909" started-at="2017-11-16T16:09:49Z" finished-at="2017-11-16T16:10:07Z">
+      <class name="com.count.AddressMatch.AddressMatch_Rule_10">
+        <test-method status="PASS" signature="AddressMatch_Rule_10()[pri:0, instance:com.count.AddressMatch.AddressMatch_Rule_10@3e6fa38a]" name="AddressMatch_Rule_10" duration-ms="17890" started-at="2017-11-16T11:09:49Z" finished-at="2017-11-16T11:10:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddressMatch_Rule_24 -->
-      </class> <!-- com.count.AddressMatch.AddressMatch_Rule_22 -->
+        </test-method> <!-- AddressMatch_Rule_10 -->
+      </class> <!-- com.count.AddressMatch.AddressMatch_Rule_10 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

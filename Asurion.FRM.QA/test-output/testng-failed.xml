@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.count.AddressToConsumerComparision.AddressToConsumerComparison">
+      <class name="com.count.ClaimCountByPEBOOverrideFlag.ClaimCountByPEBOOverrideFlag_Rule_02">
         <methods>
-          <include name="AddressToConsumerComparison"/>
+          <include name="ClaimCountByPEBOOverrideFlag_Rule_02"/>
         </methods>
-      </class> <!-- com.count.AddressToConsumerComparision.AddressToConsumerComparison -->
+      </class> <!-- com.count.ClaimCountByPEBOOverrideFlag.ClaimCountByPEBOOverrideFlag_Rule_02 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

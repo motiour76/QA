@@ -4,7 +4,7 @@ package com.count.AddressToConsumerComparision;
 import static com.jayway.restassured.RestAssured.given;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import com.asurion.CountComputationTest.AddressToConsumerComparison;
+//import com.asurion.CountComputationTest.AddressToConsumerComparison;
 import com.asurion.model.FraudCheckAPI_Model;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.config.SSLConfig;

@@ -561,6 +561,31 @@ public class FraudCheckAPI_Model {
 		 
 	}
 	
+	public int clientID_95341502() throws Exception {
+		File src = new File("C:\\Users\\MOTIOUR.RAHMAN\\Desktop\\ASURION\\Asurion.FRM.QA\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(src);
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		XSSFSheet sh1 = wb.getSheetAt(0);
+		@SuppressWarnings("deprecation")
+		int clientID1 = (int) sh1.getRow(111).getCell(1).getNumericCellValue();
+		wb.close();
+		return clientID1;		 
+		 
+	}
+	
+	
+	public int clientID_6325237() throws Exception {
+		File src = new File("C:\\Users\\MOTIOUR.RAHMAN\\Desktop\\ASURION\\Asurion.FRM.QA\\TestData.xlsx");
+		FileInputStream fis = new FileInputStream(src);
+		XSSFWorkbook wb = new XSSFWorkbook(fis);
+		XSSFSheet sh1 = wb.getSheetAt(0);
+		@SuppressWarnings("deprecation")
+		int clientID1 = (int) sh1.getRow(112).getCell(1).getNumericCellValue();
+		wb.close();
+		return clientID1;		 
+		 
+	}
+	
 	public int clientID_125444713() throws Exception {
 		File src = new File("C:\\Users\\MOTIOUR.RAHMAN\\Desktop\\ASURION\\Asurion.FRM.QA\\TestData.xlsx");
 		FileInputStream fis = new FileInputStream(src);

@@ -22,7 +22,7 @@ public class FraudCheckAPI_Script_Rule_10 {
 	@Test
 	public void FRAUD_CHECK_API_TEST_RULE10() throws Exception {
 		
-	    
+	    /*
         ValidatableResponse response = given()
 		.config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
 		.contentType(ContentType.JSON)
@@ -34,6 +34,19 @@ public class FraudCheckAPI_Script_Rule_10 {
 		//.header("Authorization", "Basic c3ZjLlVTLWQtTEFZNy1SZWFkOnFOQmpkMDJtJCFiRQ==")
 		.auth().preemptive().basic("svc.US-q-FRM-READ", "0QxqCc1H2y7DyJ5")
 
+*/
+		
+		FraudCheckAPI_Model data = new FraudCheckAPI_Model();
+        ValidatableResponse response = given()
+		.config(RestAssured.config().sslConfig(new SSLConfig().relaxedHTTPSValidation()))
+		.contentType(ContentType.JSON)
+		.header("Asurion-client", "Walmart")
+		.header("Asurion-apikey", "l7xx4617a5deafbb463fbca0349989208389")
+		.header("Asurion-correlationid", "6478623487012")
+		.header("Content-Type", "application/json")
+		.header("Accept", "application/json")
+		//.header("Authorization", "Basic c3ZjLlVTLWQtTEFZNy1SZWFkOnFOQmpkMDJtJCFiRQ==")
+		.auth().preemptive().basic("svc.US-q-FRM-READ", "0QxqCc1H2y7DyJ5")
 		
 	
 		.body("{\r\n" + 
@@ -134,8 +147,8 @@ public class FraudCheckAPI_Script_Rule_10 {
 				"")
 		.when()
 		
-		.post(" https://l7-api.use1.sqa.aws.asurion.net:8443/fraudmanagement/frauddetection/v1/fraudcheck")
-		//.post("https://rtm-frmjs-dl-vip1.use1.dev.aws.asurion.net/frauddetection/v1/fraudcheck/")
+		//.post(" https://l7-api.use1.sqa.aws.asurion.net:8443/fraudmanagement/frauddetection/v1/fraudcheck")
+		.post("https://l7-api.use1.dev.aws.asurion.net:8443/fraudmanagement/frauddetection/v1/fraudcheck")
 		//.post("https://rtm-dev-be.us-east-1.rtmbe.use1.dev.aws.asurion.net:6301/Channels/HTTPChannel/FRMCheckDest")
 		.then().log().body()
 		.statusCode(200)
